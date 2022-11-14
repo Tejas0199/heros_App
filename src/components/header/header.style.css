@@ -1,0 +1,64 @@
+body {
+  min-width: 700px;
+}
+.main-container {
+  background-color: rgb(9, 18, 26);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid rgb(252, 197, 255);
+  z-index: 20;
+  box-shadow: 0 0 20px 5px rgba(252, 197, 255, 0.271);
+}
+.nav-container {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-container > div {
+  align-items: center;
+}
+.app-name {
+  color: rgb(130, 255, 134);
+
+  /* padding: 20px 0; */
+}
+.app-name:hover {
+  cursor: pointer;
+}
+.app-name>span {
+  color: rgb(219, 75, 255);
+}
+.search-input {
+  border: none;
+  border-bottom: 2px solid white;
+  /* border-radius: 3px; */
+  padding: 8px 10px;
+  max-width: 200px;
+  margin:20px 20px 5px 10px;
+  font-size: 1.2rem;
+  background: none;
+  color: rgb(130, 255, 134);
+  outline: none;
+}
+.search-input::placeholder {
+  color: rgba(130, 255, 170, 0.707);
+}
+.search-btn {
+  padding: 8px 30px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: white;
+  background: none;
+  border: 2px solid white;
+  transition: all .2s linear;
+}
+.search-btn:hover {
+  background-color: rgb(219, 75, 255);
+  cursor: pointer;
+}
+.search-btn:active {
+  transform: scale(1.039) ;
+}
